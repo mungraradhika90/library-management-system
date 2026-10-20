@@ -1,0 +1,11 @@
+DAY - 1
+
+learn dataclasses and create class using this.
+add atributes in class.
+add methods in it.
+
+DAY - 2
+
+create custom exception.
+store data in json.
+add methods.

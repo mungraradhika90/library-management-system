@@ -1,0 +1,33 @@
+{
+   "books": {
+      "B001": {
+         "book_id": "B001",
+         "title": "Python Basics",
+         "author": "John Smith",
+         "isbn": "9781234567890",
+         "total_copies": 3,
+         "available_copies": 3
+      }
+   },
+   "members": {
+      "M001": {
+         "member_id": "M001",
+         "name": "Rahul Patel",
+         "email": "rahul@gmail.com",
+         "joined_on": "2026-10-20",
+         "issued_books": [],
+         "unpaid_fine": 0
+      }
+   },
+   "loans": {
+      "L001": {
+         "loan_id": "L001",
+         "book_id": "B001",
+         "member_id": "M001",
+         "issue_date": "2026-10-20",
+         "due_date": "2026-11-03",
+         "return_date": "2026-10-20",
+         "fine": 0
+      }
+   }
+}
