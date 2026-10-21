@@ -9,3 +9,8 @@ DAY - 2
 create custom exception.
 store data in json.
 add methods.
+
+DAY - 3
+
+test all functionalites.
+solve errors.
