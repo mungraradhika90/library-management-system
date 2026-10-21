@@ -7,6 +7,30 @@
          "isbn": "9781234567890",
          "total_copies": 3,
          "available_copies": 3
+      },
+      "B002": {
+         "book_id": "B002",
+         "title": "code ai",
+         "author": "max",
+         "isbn": "1452369874",
+         "total_copies": 5,
+         "available_copies": 4
+      },
+      "B003": {
+         "book_id": "B003",
+         "title": "AI",
+         "author": "smith",
+         "isbn": "7894561235",
+         "total_copies": 6,
+         "available_copies": 6
+      },
+      "B004": {
+         "book_id": "B004",
+         "title": "js",
+         "author": "s mark",
+         "isbn": "123",
+         "total_copies": 7,
+         "available_copies": 6
       }
    },
    "members": {
@@ -15,6 +39,33 @@
          "name": "Rahul Patel",
          "email": "rahul@gmail.com",
          "joined_on": "2026-10-20",
+         "issued_books": [],
+         "unpaid_fine": 0
+      },
+      "M002": {
+         "member_id": "M002",
+         "name": "M002",
+         "email": "m@gmail.com",
+         "joined_on": "2026-10-21",
+         "issued_books": [],
+         "unpaid_fine": 0
+      },
+      "M003": {
+         "member_id": "M003",
+         "name": "mark",
+         "email": "ma@gmail.com",
+         "joined_on": "2026-10-21",
+         "issued_books": [
+            "B002",
+            "B004"
+         ],
+         "unpaid_fine": 0
+      },
+      "M004": {
+         "member_id": "M004",
+         "name": "ram",
+         "email": "rm@gmail.com",
+         "joined_on": "2026-10-21",
          "issued_books": [],
          "unpaid_fine": 0
       }
@@ -27,6 +78,69 @@
          "issue_date": "2026-10-20",
          "due_date": "2026-11-03",
          "return_date": "2026-10-20",
+         "fine": 0
+      },
+      "L002": {
+         "loan_id": "L002",
+         "book_id": "B002",
+         "member_id": "M001",
+         "issue_date": "2026-10-21",
+         "due_date": "2026-11-04",
+         "return_date": "2026-10-21",
+         "fine": 0
+      },
+      "L003": {
+         "loan_id": "L003",
+         "book_id": "B003",
+         "member_id": "M003",
+         "issue_date": "2026-10-21",
+         "due_date": "2026-11-04",
+         "return_date": "2026-10-21",
+         "fine": 0
+      },
+      "L004": {
+         "loan_id": "L004",
+         "book_id": "B003",
+         "member_id": "M003",
+         "issue_date": "2026-10-21",
+         "due_date": "2026-11-04",
+         "return_date": "2026-10-21",
+         "fine": 0
+      },
+      "L005": {
+         "loan_id": "L005",
+         "book_id": "B001",
+         "member_id": "M004",
+         "issue_date": "2026-10-21",
+         "due_date": "2026-11-04",
+         "return_date": "2026-10-21",
+         "fine": 0
+      },
+      "L006": {
+         "loan_id": "L006",
+         "book_id": "B004",
+         "member_id": "M003",
+         "issue_date": "2026-10-21",
+         "due_date": "2026-11-04",
+         "return_date": "2026-10-21",
+         "fine": 0
+      },
+      "L007": {
+         "loan_id": "L007",
+         "book_id": "B002",
+         "member_id": "M003",
+         "issue_date": "2026-10-21",
+         "due_date": "2026-11-04",
+         "return_date": null,
+         "fine": 0
+      },
+      "L008": {
+         "loan_id": "L008",
+         "book_id": "B004",
+         "member_id": "M003",
+         "issue_date": "2026-10-21",
+         "due_date": "2026-11-04",
+         "return_date": null,
          "fine": 0
       }
    }

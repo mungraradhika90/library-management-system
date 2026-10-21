@@ -70,8 +70,8 @@ class Loan:
     member_id: str
     issue_date: date
     due_date: date
-    return_date: date
-    fine: int
+    return_date: date | None = None
+    fine: int = 0
     
     def is_overdue(self, today: date | None = None) -> bool:
         if today is None:
